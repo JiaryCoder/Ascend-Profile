@@ -1,0 +1,2 @@
+# Ascend-Profile
+修复华为上Profile得到的trace文件无法被perfetto正确解析的代码仓库
