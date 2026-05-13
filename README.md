@@ -1,2 +1,6 @@
 # Ascend-Profile
 修复华为上Profile得到的trace文件无法被perfetto正确解析的代码仓库
+
+用法:在trace_view.json目录里执行
+python3 fix_ascend_trace.py trace_view.json trace_view_fixed.json
+然后perfetto打开trace_view_fixed.json即可
